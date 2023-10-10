@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --title-font: 'EB Garamond', serif;
+    --text-font: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--text-font);
+}
+
+/* common styles */
+.title-font {
+    font-family: var(--title-font);
+}
+
+.coffee-btn {
+    background-color: #B68C5A;
+    ;
+}
+
+.text-gray {
+    color: #cfcfcf;
+}
+
+
+/* section > header */
+.header-info {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+/* section > legal law services */
+.criminal-card {
+    background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0)100%);
+}
+
+/* section > client feedback */
+.profile {
+    width: 70px;
+}
+
+/* section > contact */
+.contact-box {
+    background: #f3f3f3;
+    width: 285px;
+}
